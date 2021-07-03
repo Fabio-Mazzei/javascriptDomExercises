@@ -7,10 +7,10 @@ pA.innerText = "2 Tables:"
 
 let num = 2
 let res
-let pb
+let pB
 
 for (i = 0; i <= 10; i++) {
-    let pB = document.createElement("p")
+    pB = document.createElement("p")
     bodyA.append(pB)
     res = num * i
     pB.innerText = `${num} x ${i} = ${res}`
